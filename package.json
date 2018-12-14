@@ -1,0 +1,27 @@
+{
+  "name": "testy-jednostkowe-skoki-narciarskie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/**/*.test.js",
+    "test:watch": "onchange \"src/**/*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzychu700/testy-jednostkowe-skoki-narciarskie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzychu700/testy-jednostkowe-skoki-narciarskie/issues"
+  },
+  "homepage": "https://github.com/krzychu700/testy-jednostkowe-skoki-narciarskie#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "onchange": "^5.2.0"
+  }
+}
